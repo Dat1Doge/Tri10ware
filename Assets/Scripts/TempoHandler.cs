@@ -27,21 +27,7 @@ public class TempoHandler : MonoBehaviour
 
     public void SetBPM(int bpm)
     {
-        if(bpm > maxBPM)
-        {
-            currBPM = maxBPM;
-            OnTempoChange?.Invoke();
-
-            return;
-        }
-        if(bpm < minBPM)
-        {
-            currBPM = minBPM;
-            OnTempoChange?.Invoke();
-
-            return;
-        }       
-        currBPM = bpm;
+        currBPM = Mathf.Clamp(bpm,minBPM,maxBPM);
         OnTempoChange?.Invoke();
     }
 
