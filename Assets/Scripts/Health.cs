@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    void Start()
+    [SerializeField] private float health;
+
+    public void SetHealth(float newhealth)
     {
-        
+        health = newhealth;
     }
+    
 }
