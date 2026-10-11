@@ -11,15 +11,21 @@ public class TempoHandler : MonoBehaviour
     [SerializeField]
     private int minBPM;
 
+    public Action OnTempoChange;
+    
     private int currBPM = 0;
 
-    public Action OnTempoChange;
+    public int GetCurrentBPM()
+    {
+        return currBPM;
+    }
 
-    public float getBPMmulti()
+    public float GetBPMmulti()
     {
         return (float)currBPM/baseBPM;
     }
-    public void setBPM(int bpm)
+
+    public void SetBPM(int bpm)
     {
         if(bpm > maxBPM)
         {
@@ -42,9 +48,5 @@ public class TempoHandler : MonoBehaviour
     void Start()
     {
         currBPM = baseBPM;
-    }
-    public int GetCurrentBPM()
-    {
-        return currBPM;
     }
 }

@@ -1,13 +1,20 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
     [SerializeField] private float speed;
+    [Header("Dash Settings")]
     [SerializeField] private float dashForce;
+    [SerializeField] private float dashDuration;
+    [SerializeField] private float dashCooldown;
     [SerializeField] private InputManager inputManager;
 
+    private bool dashing = false;
+    private bool canDash = true;
+    
+    private Rigidbody2D rb;
 
     void Start()
     {
@@ -16,21 +23,29 @@ public class PlayerMovement : MonoBehaviour
         inputManager.OnDashButtonPressed += Dash;
     }
 
+    private IEnumerator dashSequence(){
+        dashing = true;
+        canDash = false;
+        rb.AddForce(inputManager.GetMovementVector() * dashForce);
+
+        yield return new WaitForSeconds(dashDuration);
+        dashing = false;
+
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
+
     private void Dash()
     {
-
+        if(canDash){
+            StartCoroutine("dashSequence");
+        }
     }
 
     void FixedUpdate()
     {
-        // Old Input System
-        /* float x = Input.GetAxisRaw("Horizontal");
-         float y = Input.GetAxisRaw("Vertical");
-         rb.linearVelocity = (new Vector2(x,y)).normalized*speed; */
-
-        //New Input System (you can choose which one to use)
-        rb.linearVelocity = inputManager.GetMovementVector() * speed;
+        if(!dashing){
+            rb.linearVelocity = inputManager.GetMovementVector() * speed;
+        }
     }
-
-    
 }
