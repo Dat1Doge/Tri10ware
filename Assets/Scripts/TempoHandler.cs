@@ -13,6 +13,7 @@ public class TempoHandler : MonoBehaviour
 
     public Action OnTempoChange;
     
+    private float baseTempoIntercept = 0.25f;
     private int currBPM = 0;
 
     public int GetCurrentBPM()
@@ -31,8 +32,13 @@ public class TempoHandler : MonoBehaviour
         OnTempoChange?.Invoke();
     }
 
-    void Start()
+    void Awake()
     {
         currBPM = baseBPM;
+    }
+
+    private void Update()
+    {
+        Time.timeScale = GetBPMmulti() + baseTempoIntercept;
     }
 }

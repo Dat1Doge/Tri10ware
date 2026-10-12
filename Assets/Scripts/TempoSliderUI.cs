@@ -9,6 +9,7 @@ public class TempoSliderUI : MonoBehaviour
     private void Start()
     {
         tempoHandler.OnTempoChange += ChangeTempoSliderUI;
+        slider.value = tempoHandler.GetCurrentBPM();
     }
 
     public void ChangeTempoSliderUI()

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Camera : MonoBehaviour
+public class CameraScript : MonoBehaviour
 {
     private Transform player;
     [SerializeField]
