@@ -4,16 +4,23 @@ using UnityEngine;
 public class TempoHandler : MonoBehaviour
 {
     [Header("BPM Settings")]
-    [SerializeField]
-    private int baseBPM = 60;
-    [SerializeField]
-    private int maxBPM;
-    [SerializeField]
-    private int minBPM;
+    [SerializeField] private int baseBPM = 60;
+    [SerializeField] private int maxBPM;
+    [SerializeField] private int minBPM;
 
     public Action OnTempoChange;
     
     private int currBPM = 0;
+
+    public int GetMaxBPM()
+    {
+        return maxBPM;
+    }
+
+    public int GetMinBPM()
+    {
+        return minBPM;
+    }
 
     public int GetCurrentBPM()
     {
@@ -31,7 +38,7 @@ public class TempoHandler : MonoBehaviour
         OnTempoChange?.Invoke();
     }
 
-    void Start()
+    void Awake()
     {
         currBPM = baseBPM;
     }

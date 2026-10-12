@@ -25,7 +25,8 @@ public class PlayerMovement : MonoBehaviour
         inputManager.OnDashButtonPressed += Dash;
     }
 
-    private IEnumerator dashSequence(){
+    private IEnumerator dashSequence()
+    {
         float bpmMulti = tempoHandler.GetBPMmulti();
 
         dashing = true;
