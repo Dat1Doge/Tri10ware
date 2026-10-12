@@ -15,23 +15,27 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash = true;
     
     private Rigidbody2D rb;
+    private TempoHandler tempoHandler;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        tempoHandler = GameObject.FindGameObjectWithTag("TempoHandler").GetComponent<TempoHandler>();
 
         inputManager.OnDashButtonPressed += Dash;
     }
 
     private IEnumerator dashSequence(){
+        float bpmMulti = tempoHandler.GetBPMmulti();
+
         dashing = true;
         canDash = false;
-        rb.AddForce(inputManager.GetMovementVector() * dashForce);
+        rb.AddForce(inputManager.GetMovementVector() * dashForce * bpmMulti);
 
-        yield return new WaitForSeconds(dashDuration);
+        yield return new WaitForSeconds(dashDuration/bpmMulti);
         dashing = false;
 
-        yield return new WaitForSeconds(dashCooldown);
+        yield return new WaitForSeconds(dashCooldown/bpmMulti);
         canDash = true;
     }
 
@@ -45,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         if(!dashing){
-            rb.linearVelocity = inputManager.GetMovementVector() * speed;
+            rb.linearVelocity = inputManager.GetMovementVector() * speed * tempoHandler.GetBPMmulti();
         }
     }
 }

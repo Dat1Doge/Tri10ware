@@ -17,11 +17,13 @@ public class TempoInput : MonoBehaviour
         Vector2 tempoVector = inputManager.GetTempoVector();
         if(tempoVector.y >= tempoIncreasePoint)
         {
+            //print("increase");
             int newTempo = tempoHandler.GetCurrentBPM() + tempoChangeIncrement;
             tempoHandler.SetBPM(newTempo);
         }
         if (tempoVector.y <= tempoDecreasePoint)
         {
+            //print("decrease");
             int newTempo = tempoHandler.GetCurrentBPM() - tempoChangeIncrement;
             tempoHandler.SetBPM(newTempo);
         }
