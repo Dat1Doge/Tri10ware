@@ -19,7 +19,7 @@ public class PlayerAim : MonoBehaviour
 
         aimVector = (mousePosition - transform.position).normalized;
         float rotation = Mathf.Atan2(aimVector.y, aimVector.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0,0,rotation - 90);
+        transform.rotation = Quaternion.Euler(0,0,rotation);
     }
 
     public Vector3 GetAimDirection()

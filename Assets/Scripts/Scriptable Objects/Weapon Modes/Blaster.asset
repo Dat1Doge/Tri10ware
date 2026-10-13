@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02deaa1be523edf4cbccfe9ff7b22acc, type: 3}
+  m_Name: Blaster
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponMode
+  coolDown: 2
+  sprite: {fileID: -2413806693520163455, guid: f2c7e29e4d86a3c4cb56217484511269, type: 3}
+  projectile: {fileID: 4747855539132279456, guid: 53e652101df3d114fb5d525a9d3d7e23, type: 3}
+  projectileLifeSpan: 2
