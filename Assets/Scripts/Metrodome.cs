@@ -11,19 +11,20 @@ public class Metrodome : MonoBehaviour
     [SerializeField] private int swapTempo;
     [SerializeField] private float swapCooldown;
     private bool canSwap = true;
-    private string mode; //blaster, sniper
+    [SerializeField] private WeaponMode blasterMode;
+    [SerializeField] private WeaponMode sniperMode;
+    private WeaponMode currMode; //blaster, sniper
 
-    [Header("Blaster Settings")]
-    [SerializeField] private Sprite blasterSprite;
+    private bool canShoot = true;
 
-    [Header("Sniper Settings")]
-    [SerializeField] private Sprite sniperSprite;
+    private SpriteRenderer spriteRenderer;
 
     private void Start()
     {
-        UpdateMode();
         tempoHandler.OnTempoChange += UpdateMode;
         inputManager.OnFireButtonPressed += Attack;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        UpdateMode();
     }
 
     private IEnumerator handleSwapCooldown(){
@@ -35,25 +36,34 @@ public class Metrodome : MonoBehaviour
     public void UpdateMode() {
         if(canSwap){
             int currBPM = tempoHandler.GetCurrentBPM();
-            if(currBPM <= swapTempo && mode != "blaster"){
-                mode = "blaster";
+
+            if(currBPM <= swapTempo && currMode != blasterMode){
+                currMode = blasterMode;   
             }
-            else if(currBPM > swapTempo && mode != "sniper"){
-                mode = "sniper";
+            else if(currBPM > swapTempo && currMode != sniperMode){
+                currMode = sniperMode;
             }
+            else{
+                return;
+            }
+
+            spriteRenderer.sprite = currMode.sprite;
             StartCoroutine("handleSwapCooldown");
         }
     }
 
+    private IEnumerator handleAttackCooldown(){
+        canShoot = false;
+        yield return new WaitForSeconds(currMode.coolDown);
+        canShoot = true;
+    }
+
     public void Attack()
     {
-        if(tempoHandler.GetCurrentBPM() <= swapTempo)
-        {
-            Debug.Log("Fired Energy Ball");
-        }
-        else if (tempoHandler.GetCurrentBPM() > swapTempo)
-        {
-            Debug.Log("Fired Sniper Shot");
+        if(canShoot){
+            GameObject newProjectile = Instantiate(currMode.projectile,transform.position,transform.rotation);
+            Destroy(newProjectile,currMode.projectileLifeSpan);
+            StartCoroutine("handleAttackCooldown");
         }
     }
 }
