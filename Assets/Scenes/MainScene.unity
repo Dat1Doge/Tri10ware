@@ -239,6 +239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9520978}
+  - component: {fileID: 9520979}
   m_Layer: 0
   m_Name: Pivot
   m_TagString: Untagged
@@ -262,6 +263,18 @@ Transform:
   - {fileID: 1968903206}
   m_Father: {fileID: 1583505870}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9520979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9520977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e75a4b7a445d384487cce1eeb4f3d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAim
 --- !u!1 &233858096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,7 +1331,6 @@ GameObject:
   - component: {fileID: 1583505868}
   - component: {fileID: 1583505871}
   - component: {fileID: 1583505872}
-  - component: {fileID: 1583505873}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1462,18 +1474,6 @@ MonoBehaviour:
   tempoHandler: {fileID: 1012962448}
   energyBallCutoff: 120
   sniperShotCutoff: 120
---- !u!114 &1583505873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583505867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e75a4b7a445d384487cce1eeb4f3d22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerAim
 --- !u!1 &1707873983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1599,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -2413806693520163455, guid: f2c7e29e4d86a3c4cb56217484511269, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1607,7 +1607,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!1 &2005460177
