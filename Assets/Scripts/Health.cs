@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
         health = newhealth;
     }
 
-    public float GetHealth(){
+    public float GetCurrentHealth(){
         return health;
     }
     
@@ -20,6 +20,7 @@ public class Health : MonoBehaviour
         health = Mathf.Max(0,health-damage);
         if(health == 0){
             OnDeath?.Invoke();
+            Debug.Log(gameObject.name + "killed!");
         }
     }
 }

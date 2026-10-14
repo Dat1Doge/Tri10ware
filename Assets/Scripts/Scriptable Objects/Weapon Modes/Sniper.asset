@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sniper
   m_EditorClassIdentifier: Assembly-CSharp::WeaponMode
   coolDown: 1
-  sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   projectile: {fileID: 7924119346189006491, guid: 4d21eed8084e7464194f9027043fc154, type: 3}
   projectileLifeSpan: 1
