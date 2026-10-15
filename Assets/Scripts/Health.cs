@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
         return health;
     }
     
-    public void DealDamage(int damage) {
+    public void DealDamage(float damage) {
         health = Mathf.Max(0,health-damage);
         if(health == 0){
             OnDeath?.Invoke();

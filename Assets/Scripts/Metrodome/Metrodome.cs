@@ -62,7 +62,7 @@ public class Metrodome : MonoBehaviour
     {
         if(canShoot){
             GameObject newProjectile = Instantiate(currMode.projectile,transform.position,transform.rotation);
-            Destroy(newProjectile,currMode.projectileLifeSpan);
+            newProjectile.GetComponent<Projectile>().Fire(newProjectile.transform.right);
             StartCoroutine("handleAttackCooldown");
         }
     }

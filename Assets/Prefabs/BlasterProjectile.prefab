@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 986204311535761485}
   - component: {fileID: 9087007806967292093}
   - component: {fileID: 7331845872423100499}
+  - component: {fileID: 6798290387354807427}
   m_Layer: 0
   m_Name: BlasterProjectile
   m_TagString: Untagged
@@ -120,3 +121,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6798290387354807427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4747855539132279456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edfcc515c3975e49b3d066e0df256d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Projectile
+  projectileSpeed: 5
+  projectileDamage: 50
+  projectileLifespan: 5
+  sender: {fileID: 0}

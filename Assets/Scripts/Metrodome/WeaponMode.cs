@@ -6,5 +6,4 @@ public class WeaponMode : ScriptableObject
     public float coolDown;
     public Sprite sprite;
     public GameObject projectile;
-    public float projectileLifeSpan;
 }
