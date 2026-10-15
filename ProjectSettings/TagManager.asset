@@ -6,6 +6,7 @@ TagManager:
   tags:
   - InputManager
   - TempoHandler
+  - Enemy
   layers:
   - Default
   - TransparentFX
