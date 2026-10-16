@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] private float projectileSpeed;
-    [SerializeField] private float projectileDamage;
-    [SerializeField] private float projectileLifespan;
-    private string senderTag;
-    private Rigidbody2D rb;
+    [Header("General Settings")]
+    [SerializeField] protected float projectileSpeed;
+    [SerializeField] protected float projectileDamage;
+    [SerializeField] protected float projectileLifespan;
+    protected string senderTag;
+    protected Rigidbody2D rb;
 
     #region Getters
     public float GetProjectileSpeed() { 
@@ -20,23 +21,31 @@ public class Projectile : MonoBehaviour
     }
     #endregion
 
-    private void Awake() {
+    protected virtual void Awake() {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    public void Fire(Vector2 direction, string tag) {
+    public virtual void Fire(Vector2 direction, string tag) {
         rb.linearVelocity = direction.normalized*projectileSpeed;
         Destroy(this.gameObject,projectileLifespan);
         senderTag = tag;
     }
 
-    private void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.tag!=senderTag){
-            if((other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy")){
-                Health health = other.GetComponent<Health>();
-                health.DealDamage(projectileDamage);
-            }
-            Destroy(this.gameObject);
+    protected virtual void Hit(Collider2D other) {
+        if((other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy")){
+            Health health = other.GetComponent<Health>();
+            health.DealDamage(projectileDamage);
         }
+        Destroy(this.gameObject);
+    }
+
+    protected void OnTriggerEnter2D(Collider2D other){
+        if(other.gameObject.tag!=senderTag && senderTag != null){
+            Hit(other);
+        }
+    }
+
+    protected virtual void OnDestroy(){
+
     }
 }
