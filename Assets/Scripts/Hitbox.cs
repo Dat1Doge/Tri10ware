@@ -9,13 +9,14 @@ public class Hitbox : MonoBehaviour
     {
        health = gameObject.GetComponent<Health>();
     }
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == layerMaskNumber)
         {
             Projectile projectile = collision.GetComponent<Projectile>();
 
-            health.DealDamage((int)projectile.GetProjectileDamage());
+            health.DealDamage(projectile.GetProjectileDamage());
             Debug.Log(collision.gameObject.name + " hit " + health.gameObject.name);
             Destroy(collision.gameObject);
         }
