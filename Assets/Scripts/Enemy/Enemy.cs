@@ -5,8 +5,8 @@ public class Enemy : MonoBehaviour
     protected GameObject player;
     protected Health health;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    protected void Start()
+    
+    protected void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         health = GetComponent<Health>();
@@ -17,9 +17,8 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-    protected void Update()
+    protected virtual void Update()
     {
-
+        
     }
 }

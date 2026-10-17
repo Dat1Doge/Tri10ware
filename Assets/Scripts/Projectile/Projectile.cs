@@ -32,7 +32,7 @@ public class Projectile : MonoBehaviour
     }
 
     protected virtual void Hit(Collider2D other) {
-        if((other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy")){
+        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy"){
             Health health = other.GetComponent<Health>();
             health.DealDamage(projectileDamage);
         }
@@ -40,7 +40,7 @@ public class Projectile : MonoBehaviour
     }
 
     protected void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.tag!=senderTag && senderTag != null){
+        if(other.gameObject.tag!=senderTag && senderTag != null) {
             Hit(other);
         }
     }

@@ -27,7 +27,7 @@ public class Metrodome : MonoBehaviour
         UpdateMode();
     }
 
-    private IEnumerator handleSwapCooldown(){
+    private IEnumerator HandleSwapCooldown(){
         canSwap = false;
         yield return new WaitForSeconds(swapCooldown);
         canSwap = true;
@@ -48,11 +48,11 @@ public class Metrodome : MonoBehaviour
             }
 
             spriteRenderer.sprite = currMode.sprite;
-            StartCoroutine("handleSwapCooldown");
+            StartCoroutine(HandleSwapCooldown());
         }
     }
 
-    private IEnumerator handleAttackCooldown(){
+    private IEnumerator HandleAttackCooldown(){
         canShoot = false;
         yield return new WaitForSeconds(currMode.coolDown);
         canShoot = true;
@@ -63,7 +63,7 @@ public class Metrodome : MonoBehaviour
         if(canShoot){
             GameObject newProjectile = Instantiate(currMode.projectile,transform.position,transform.rotation);
             newProjectile.GetComponent<Projectile>().Fire(newProjectile.transform.right,"Player");
-            StartCoroutine("handleAttackCooldown");
+            StartCoroutine(HandleAttackCooldown());
         }
     }
 }
