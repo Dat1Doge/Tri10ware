@@ -1,3 +1,4 @@
+using UnityEditor.AnimatedValues;
 using UnityEngine;
 
 public class SniperEnemyVisual : MonoBehaviour
@@ -6,13 +7,15 @@ public class SniperEnemyVisual : MonoBehaviour
 
     private void Start()
     {
-        sniperEnemy = GetComponent<SniperEnemy>();
+        sniperEnemy = GetComponentInParent<SniperEnemy>();
     }
 
     private void Update()
     {
         if (sniperEnemy.IsLockingOn()){
-            //visuals and stuff
+            float rotation = Mathf.Atan2(sniperEnemy.GetPlayerDirection().y, sniperEnemy.GetPlayerDirection().x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, rotation);
+
         }
     }
 }

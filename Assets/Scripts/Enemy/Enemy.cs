@@ -4,11 +4,13 @@ public class Enemy : MonoBehaviour
 {
     protected GameObject player;
     protected Health health;
+    protected TempoHandler tempoHandler;
 
     
     protected void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        tempoHandler = GameObject.FindGameObjectWithTag("TempoHandler").GetComponent<TempoHandler>();
         health = GetComponent<Health>();
         health.OnDeath += Die;
     }

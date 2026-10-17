@@ -15,4 +15,3 @@ MonoBehaviour:
   coolDown: 2
   sprite: {fileID: -2413806693520163455, guid: f2c7e29e4d86a3c4cb56217484511269, type: 3}
   projectile: {fileID: 4747855539132279456, guid: 53e652101df3d114fb5d525a9d3d7e23, type: 3}
-  projectileLifeSpan: 2
