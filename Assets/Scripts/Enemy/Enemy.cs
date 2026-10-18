@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour
     protected GameObject player;
     protected Health health;
     protected TempoHandler tempoHandler;
+    protected readonly string enemyTag = "Enemy";
 
     
     protected void Awake()

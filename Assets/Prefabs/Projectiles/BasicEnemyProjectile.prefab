@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1332332806805044559}
   - component: {fileID: 1814710233494724822}
   - component: {fileID: 232759370382532582}
+  - component: {fileID: 843097896724602410}
   m_Layer: 3
   m_Name: BasicEnemyProjectile
   m_TagString: Untagged
@@ -47,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0edfcc515c3975e49b3d066e0df256d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  projectileSpeed: 10
+  projectileSpeed: 2
   projectileDamage: 10
   projectileLifespan: 5
 --- !u!58 &232759370382532582
@@ -86,6 +87,33 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.4
+--- !u!50 &843097896724602410
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537684242190218732}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &767058496954034405
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +193,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: f2c7e29e4d86a3c4cb56217484511269, type: 3}
   m_Color: {r: 0.4339623, g: 0.09211465, b: 0.09211465, a: 1}

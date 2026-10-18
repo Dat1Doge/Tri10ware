@@ -22,8 +22,8 @@ public class SniperEnemy : Enemy, IAttack
     {
         isLockingOn = true;
         yield return new WaitForSeconds(lockInTime);
-        GameObject newProjectile = Instantiate(projectile.gameObject,transform.position,transform.rotation);
-        newProjectile.GetComponent<Projectile>().Fire(GetPlayerDirection(), "Enemy");
+        GameObject newProjectile = Instantiate(projectile,transform.position,transform.rotation);
+        newProjectile.GetComponent<Projectile>().Fire(GetPlayerDirection(), enemyTag);
         isLockingOn = false;
  
         StartCoroutine(HandleAttackCooldown());

@@ -26,7 +26,7 @@ public class ChargerEnemy : Enemy, IAttack
 
     IEnumerator ChargeAttack()
     {
-        for (int i = 0; i < dashCount; i++)
+        for (int i = 0; i < dashCount + 1; i++)
         {
             StartCoroutine(DashAttack());
 
