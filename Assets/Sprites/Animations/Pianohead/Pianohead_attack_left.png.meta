@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: c6fdc66c3eee50d4e82ddebdf705a4f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4707413478719369561
+    second: Pianohead_attack_left_0
+  - first:
+      213: 3769819689860035483
+    second: Pianohead_attack_left_1
+  - first:
+      213: -4620837920812121043
+    second: Pianohead_attack_left_2
+  - first:
+      213: -8374080382703632689
+    second: Pianohead_attack_left_3
+  - first:
+      213: 2405591457933995477
+    second: Pianohead_attack_left_4
+  - first:
+      213: -12378653883966718
+    second: Pianohead_attack_left_5
+  - first:
+      213: -2091510486290216512
+    second: Pianohead_attack_left_6
+  - first:
+      213: 3708739378745385273
+    second: Pianohead_attack_left_7
+  - first:
+      213: 5408281723948827481
+    second: Pianohead_attack_left_8
+  - first:
+      213: 9061054271536094310
+    second: Pianohead_attack_left_9
+  - first:
+      213: -3217701537819410668
+    second: Pianohead_attack_left_10
+  - first:
+      213: -706410334253373567
+    second: Pianohead_attack_left_11
+  - first:
+      213: 4042729842454658744
+    second: Pianohead_attack_left_12
+  - first:
+      213: -2884010378094029586
+    second: Pianohead_attack_left_13
+  - first:
+      213: -7675490103551814127
+    second: Pianohead_attack_left_14
+  - first:
+      213: -7183862210783732636
+    second: Pianohead_attack_left_15
+  - first:
+      213: 1571045644895810904
+    second: Pianohead_attack_left_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pianohead_attack_left_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 131
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95134f13e97145140800000000000000
+      internalID: 4707413478719369561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 131
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b937169d807115430800000000000000
+      internalID: 3769819689860035483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 131
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24c65da46c7fdfb0800000000000000
+      internalID: -4620837920812121043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 131
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcef16c724a49cb80800000000000000
+      internalID: -8374080382703632689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 131
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddaed48fa0626120800000000000000
+      internalID: 2405591457933995477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 131
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bd27c0ea504dff0800000000000000
+      internalID: -12378653883966718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9caa44b4679f2e0800000000000000
+      internalID: -2091510486290216512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 70
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9312f92b0d6187330800000000000000
+      internalID: 3708739378745385273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 70
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9530539d2931e0b40800000000000000
+      internalID: 5408281723948827481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 70
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cd1793ad45fbd70800000000000000
+      internalID: 9061054271536094310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 70
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fbb0ddf7d6853d0800000000000000
+      internalID: -3217701537819410668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 70
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187a9213b835236f0800000000000000
+      internalID: -706410334253373567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be71665f59aa1830800000000000000
+      internalID: 4042729842454658744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee45a2d57dfe9f7d0800000000000000
+      internalID: -2884010378094029586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 7
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11694c4da6e2b7590800000000000000
+      internalID: -7675490103551814127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 7
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c12ea816bcd4c90800000000000000
+      internalID: -7183862210783732636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pianohead_attack_left_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85570f5b0b97dc510800000000000000
+      internalID: 1571045644895810904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pianohead_attack_left_0: 4707413478719369561
+      Pianohead_attack_left_1: 3769819689860035483
+      Pianohead_attack_left_10: -3217701537819410668
+      Pianohead_attack_left_11: -706410334253373567
+      Pianohead_attack_left_12: 4042729842454658744
+      Pianohead_attack_left_13: -2884010378094029586
+      Pianohead_attack_left_14: -7675490103551814127
+      Pianohead_attack_left_15: -7183862210783732636
+      Pianohead_attack_left_16: 1571045644895810904
+      Pianohead_attack_left_2: -4620837920812121043
+      Pianohead_attack_left_3: -8374080382703632689
+      Pianohead_attack_left_4: 2405591457933995477
+      Pianohead_attack_left_5: -12378653883966718
+      Pianohead_attack_left_6: -2091510486290216512
+      Pianohead_attack_left_7: 3708739378745385273
+      Pianohead_attack_left_8: 5408281723948827481
+      Pianohead_attack_left_9: 9061054271536094310
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
