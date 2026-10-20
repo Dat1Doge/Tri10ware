@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UIElements.Experimental;
+
 
 public class ChargerEnemy : Enemy, IAttack
 {
@@ -22,9 +22,16 @@ public class ChargerEnemy : Enemy, IAttack
     {
         rb = GetComponent<Rigidbody2D>();
         Attack();
+    } 
+    private IEnumerator DashAttack()
+    {
+        isDashing = true;
+        rb.AddForce(playerDirection * dashForce);
+        yield return new WaitForSeconds(dashDuration);
+        rb.linearVelocity = Vector2.zero;
+        isDashing = false;
     }
-
-    IEnumerator ChargeAttack()
+    private IEnumerator ChargeAttack()
     {
         canAttack = false;
         for (int i = 0; i < dashCount + 1; i++)
@@ -33,28 +40,26 @@ public class ChargerEnemy : Enemy, IAttack
 
             yield return new WaitForSeconds(timeBetweenDashes);
         }
+
+        StartCoroutine(HandleAttackCooldown());
+    }
+    private IEnumerator HandleAttackCooldown()
+    {
+        canAttack = false;
+        yield return new WaitForSeconds(attackCooldown);
         canAttack = true;
     }
 
     protected override void Update()
     {
-        if(canAttack){
-            Attack();
-        }
+        playerDirection = (player.transform.position - transform.position).normalized;
+
+        if (canAttack) { Attack(); }
     }
 
     public void Attack()
     {
         StartCoroutine(ChargeAttack());
     }
-
-    private IEnumerator DashAttack()
-    {
-        isDashing = true;
-        playerDirection = (player.transform.position - transform.position).normalized;
-        rb.AddForce(playerDirection * dashForce);
-        yield return new WaitForSeconds(dashDuration);
-        rb.linearVelocity = Vector2.zero;
-        isDashing = false;
-    }
+   
 }
