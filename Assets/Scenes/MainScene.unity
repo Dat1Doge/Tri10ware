@@ -1820,6 +1820,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestSniper
       objectReference: {fileID: 0}
+    - target: {fileID: 5006190839983009826, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
+      propertyPath: lockInTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5006190839983009826, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
+      propertyPath: attackCooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6754707245681269509, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

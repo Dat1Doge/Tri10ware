@@ -33,6 +33,7 @@ public class ChargerEnemy : Enemy, IAttack
     }
     private IEnumerator ChargeAttack()
     {
+        canAttack = false;
         for (int i = 0; i < dashCount + 1; i++)
         {
             StartCoroutine(DashAttack());
@@ -48,12 +49,14 @@ public class ChargerEnemy : Enemy, IAttack
         yield return new WaitForSeconds(attackCooldown);
         canAttack = true;
     }
+
     protected override void Update()
     {
         playerDirection = (player.transform.position - transform.position).normalized;
 
         if (canAttack) { Attack(); }
     }
+
     public void Attack()
     {
         StartCoroutine(ChargeAttack());
