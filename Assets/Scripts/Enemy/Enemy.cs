@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    
     protected virtual void Update()
     {
         

@@ -9,14 +9,17 @@ public class SniperEnemy : Enemy, IAttack
     [SerializeField] private GameObject projectile;
     [Header("General Settings")]
     [SerializeField] private float attackCooldown;
-    
 
     private Vector3 playerDirection;
+    private Vector3 adjustedPlayerDirection;
+    private Rigidbody2D playerRb;
     private bool isLockingOn;
     private bool canAttack;
     private void Start()
     {
+        playerRb = player.GetComponent<Rigidbody2D>();
         Attack();
+        
     }
     private IEnumerator LockOnPlayer()
     {
@@ -34,9 +37,19 @@ public class SniperEnemy : Enemy, IAttack
         yield return new WaitForSeconds(attackCooldown);
         canAttack = true;
     }
-    protected override void Update()
+    protected void FixedUpdate()
     {
+        Vector2 playerVel = playerRb.linearVelocity;
+        float playerSpd = playerVel.magnitude;
+        
         playerDirection = player.transform.position - transform.position;
+        adjustedPlayerDirection = playerDirection + new Vector3(playerVel.x,playerVel.y,0);
+
+        float bulletTravelTime = adjustedPlayerDirection.magnitude/projectile.GetComponent<Projectile>().GetProjectileSpeed();
+        float playerMovementMagnitude = bulletTravelTime*playerSpd;
+
+        Vector2 normalizedPlayerVel = playerVel.normalized;
+        adjustedPlayerDirection = playerDirection + playerMovementMagnitude*new Vector3(normalizedPlayerVel.x,normalizedPlayerVel.y,0);
 
         if (canAttack)
         {
@@ -45,13 +58,18 @@ public class SniperEnemy : Enemy, IAttack
         }
         
     }
+
+    void OnDrawGizmos() {
+        Gizmos.DrawLine(player.transform.position,transform.position);
+        Gizmos.DrawLine(transform.position + adjustedPlayerDirection,transform.position);
+    }
     public void Attack()
     {
         StartCoroutine(LockOnPlayer());
     }
     public Vector3 GetPlayerDirection()
     {
-        return playerDirection;
+        return adjustedPlayerDirection;
     }
     public bool IsLockingOn() { 
         return isLockingOn;
