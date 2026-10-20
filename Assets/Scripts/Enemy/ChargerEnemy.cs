@@ -26,31 +26,35 @@ public class ChargerEnemy : Enemy, IAttack
 
     IEnumerator ChargeAttack()
     {
+        canAttack = false;
         for (int i = 0; i < dashCount + 1; i++)
         {
             StartCoroutine(DashAttack());
 
             yield return new WaitForSeconds(timeBetweenDashes);
         }
+        canAttack = true;
     }
+
     protected override void Update()
     {
-        playerDirection = player.transform.position - transform.position;
-
+        if(canAttack){
+            Attack();
+        }
     }
+
     public void Attack()
     {
         StartCoroutine(ChargeAttack());
     }
+
     private IEnumerator DashAttack()
     {
         isDashing = true;
+        playerDirection = (player.transform.position - transform.position).normalized;
         rb.AddForce(playerDirection * dashForce);
         yield return new WaitForSeconds(dashDuration);
         rb.linearVelocity = Vector2.zero;
         isDashing = false;
-        
-        
-        
     }
 }

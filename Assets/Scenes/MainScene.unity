@@ -1626,11 +1626,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45604e12ded5697439f0469c205ec75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChargerEnemy
-  dashForce: 50
-  dashDuration: 2
-  timeBetweenDashes: 5
+  dashForce: 2500
+  dashDuration: 0.3
+  timeBetweenDashes: 2
   dashCount: 3
-  attackCooldown: 0
+  attackCooldown: 0.5
 --- !u!1 &1968903205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1902,6 +1902,14 @@ PrefabInstance:
     - target: {fileID: 4431947509933603961, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
       propertyPath: m_Name
       value: TestSniper
+      objectReference: {fileID: 0}
+    - target: {fileID: 5006190839983009826, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
+      propertyPath: lockInTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5006190839983009826, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
+      propertyPath: attackCooldown
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6754707245681269509, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
       propertyPath: m_LocalPosition.x
