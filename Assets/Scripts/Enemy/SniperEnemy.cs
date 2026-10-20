@@ -15,12 +15,14 @@ public class SniperEnemy : Enemy, IAttack
     private Rigidbody2D playerRb;
     private bool isLockingOn;
     private bool canAttack;
+
     private void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
         Attack();
         
     }
+
     private IEnumerator LockOnPlayer()
     {
         isLockingOn = true;
@@ -31,12 +33,14 @@ public class SniperEnemy : Enemy, IAttack
  
         StartCoroutine(HandleAttackCooldown());
     }
+
     private IEnumerator HandleAttackCooldown()
     {
         canAttack = false;
         yield return new WaitForSeconds(attackCooldown);
         canAttack = true;
     }
+    
     protected void FixedUpdate()
     {
         Vector2 playerVel = playerRb.linearVelocity;
@@ -59,18 +63,16 @@ public class SniperEnemy : Enemy, IAttack
         
     }
 
-    void OnDrawGizmos() {
-        Gizmos.DrawLine(player.transform.position,transform.position);
-        Gizmos.DrawLine(transform.position + adjustedPlayerDirection,transform.position);
-    }
     public void Attack()
     {
         StartCoroutine(LockOnPlayer());
     }
+
     public Vector3 GetPlayerDirection()
     {
         return adjustedPlayerDirection;
     }
+
     public bool IsLockingOn() { 
         return isLockingOn;
     }
