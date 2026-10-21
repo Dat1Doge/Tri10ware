@@ -20,10 +20,10 @@ public class ChargerEnemy : Enemy, IAttack
 
     private Animator animator;
     private Vector3 playerDirection;
+    private float directionInterval = 0.2f;
     private bool isDashing;
     private bool canAttack;
     private bool dashHitAlready;
-    private float smashAndRestDelay = 1.0f;
 
     private Rigidbody2D rb;
 
@@ -36,8 +36,26 @@ public class ChargerEnemy : Enemy, IAttack
     private IEnumerator DashAttack()
     {
         isDashing = true;
-        
+       
+        Vector3 storedPlayerDirection = playerDirection;
+        Debug.Log(storedPlayerDirection);
+        if (storedPlayerDirection.x > directionInterval)
+        {
+            animator.SetFloat("PlayerDirectionX", 1);
+        }
+        else if (storedPlayerDirection.x < -directionInterval)
+        {
+            animator.SetFloat("PlayerDirectionX", -1);
+        }
 
+        if (storedPlayerDirection.y > 0)
+        {
+            animator.SetFloat("PlayerDirectionY", 1);
+        }
+        else if (storedPlayerDirection.y < 0)
+        {
+            animator.SetFloat("PlayerDirectionY", -1);
+        }
         dashHitAlready = false;
 
         rb.AddForce(playerDirection * dashForce);

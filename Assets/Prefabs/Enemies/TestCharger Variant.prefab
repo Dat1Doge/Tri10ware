@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChargerEnemy
   dashForce: 700
   dashDuration: 1
-  timeBetweenDashes: 2
+  timeBetweenDashes: 2.5
   dashCount: 3
   dashAttackDamage: 50
   circleRadius: 2
