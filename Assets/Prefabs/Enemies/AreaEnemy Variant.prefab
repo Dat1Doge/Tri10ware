@@ -846,11 +846,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5
+      value: -5.65446
       objectReference: {fileID: 0}
     - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.75
+      value: 5.89182
       objectReference: {fileID: 0}
     - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_LocalPosition.z
@@ -975,6 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aebbcb2ef7ac014fbb7c0b2c03750e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AreaEnemy
+  shoot: {fileID: 11400000, guid: 0e9c551d307789c46a5ddea5fe7b67f0, type: 2}
   attackCooldown: 3
   projectile: {fileID: 537684242190218732, guid: 6c5cfe3c9c2b7d340b746f5e142a3a3b, type: 3}
   shotPoints:
@@ -1094,7 +1095,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1506498398892574446, guid: a1e4296b2b6bbc240bf035f63b734413, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

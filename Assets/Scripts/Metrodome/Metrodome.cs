@@ -6,6 +6,7 @@ public class Metrodome : MonoBehaviour
     [Header("References")]
     [SerializeField] private InputManager inputManager;
     [SerializeField] private TempoHandler tempoHandler;
+    [SerializeField] private SoundEffectPlayer sfxPlayer;
 
     [Header("Swap Settings")]
     [SerializeField] private int swapTempo;
@@ -14,6 +15,10 @@ public class Metrodome : MonoBehaviour
     [SerializeField] private WeaponMode blasterMode;
     [SerializeField] private WeaponMode sniperMode;
     private WeaponMode currMode; //blaster, sniper
+
+    [Header("Sounds")]
+    [SerializeField] private SoundEffect shootSound;
+    [SerializeField] private SoundEffect swapSound;
 
     private bool canShoot = true;
 
@@ -47,6 +52,7 @@ public class Metrodome : MonoBehaviour
                 return;
             }
 
+            sfxPlayer.PlaySound(swapSound);
             spriteRenderer.sprite = currMode.sprite;
             StartCoroutine(HandleSwapCooldown());
         }
@@ -61,6 +67,7 @@ public class Metrodome : MonoBehaviour
     public void Attack()
     {
         if(canShoot){
+            sfxPlayer.PlaySound(shootSound);
             GameObject newProjectile = Instantiate(currMode.projectile,transform.position,transform.rotation);
             newProjectile.GetComponent<Projectile>().Fire(newProjectile.transform.right,"Player");
             StartCoroutine(HandleAttackCooldown());

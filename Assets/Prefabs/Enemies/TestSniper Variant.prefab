@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5415401694808285999, guid: 7b187e138d44d4340afbcf1f3e3ed6b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -332,6 +332,7 @@ MonoBehaviour:
   lockInTime: 5
   projectile: {fileID: 7924119346189006491, guid: 4d21eed8084e7464194f9027043fc154, type: 3}
   attackCooldown: 3
+  shoot: {fileID: 11400000, guid: 0e9c551d307789c46a5ddea5fe7b67f0, type: 2}
 --- !u!4 &6754707245681269509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
