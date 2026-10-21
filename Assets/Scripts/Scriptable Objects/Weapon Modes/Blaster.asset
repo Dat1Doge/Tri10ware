@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Blaster
   m_EditorClassIdentifier: Assembly-CSharp::WeaponMode
   coolDown: 2
-  sprite: {fileID: 7482667652216324306, guid: 6688f5b26ecfbb14d9f72f7c8dcfda3f, type: 3}
+  sprite: {fileID: 3638726519094019117, guid: 335770bb54f450940a08fdf3ea579f4e, type: 3}
   projectile: {fileID: 4747855539132279456, guid: 53e652101df3d114fb5d525a9d3d7e23, type: 3}

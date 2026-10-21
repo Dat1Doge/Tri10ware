@@ -23,12 +23,14 @@ public class Metrodome : MonoBehaviour
     private bool canShoot = true;
 
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     private void Start()
     {
         tempoHandler.OnTempoChange += UpdateMode;
         inputManager.OnFireButtonPressed += Attack;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
         UpdateMode();
     }
 
@@ -41,6 +43,7 @@ public class Metrodome : MonoBehaviour
     public void UpdateMode() {
         if(canSwap){
             int currBPM = tempoHandler.GetCurrentBPM();
+            animator.SetInteger("BPM",currBPM);
 
             if(currBPM <= swapTempo && currMode != blasterMode){
                 currMode = blasterMode;   
@@ -54,6 +57,7 @@ public class Metrodome : MonoBehaviour
 
             sfxPlayer.PlaySound(swapSound);
             spriteRenderer.sprite = currMode.sprite;
+            
             StartCoroutine(HandleSwapCooldown());
         }
     }

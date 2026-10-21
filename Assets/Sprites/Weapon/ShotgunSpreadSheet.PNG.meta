@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 335770bb54f450940a08fdf3ea579f4e
+guid: b6c1ad66b41c6ca4199808b897bbbc6d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4273869421122619421
-    second: UziSpreadSheet_0
+      213: -4951286573667773295
+    second: ShotgunSpreadSheet_0
   - first:
-      213: 3638726519094019117
-    second: UziSpreadSheet_1
+      213: -1219196127862523350
+    second: ShotgunSpreadSheet_1
   - first:
-      213: -8652038197999764607
-    second: UziSpreadSheet_2
+      213: 1920587547680658863
+    second: ShotgunSpreadSheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -104,71 +104,84 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UziSpreadSheet_0
+      name: ShotgunSpreadSheet_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 21
-        width: 48
-        height: 21
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e7f499c76a20b4c0800000000000000
-      internalID: -4273869421122619421
+      spriteID: 1941f53281f794bb0800000000000000
+      internalID: -4951286573667773295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UziSpreadSheet_1
+      name: ShotgunSpreadSheet_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 21
-        width: 43
-        height: 21
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2484658d7a5f7230800000000000000
-      internalID: 3638726519094019117
+      spriteID: a2af83fc49b841fe0800000000000000
+      internalID: -1219196127862523350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UziSpreadSheet_2
+      name: ShotgunSpreadSheet_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 21
-        width: 50
-        height: 21
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18bfc117919cde780800000000000000
-      internalID: -8652038197999764607
+      spriteID: fa55b8be23c47aa10800000000000000
+      internalID: 1920587547680658863
       vertices: []
       indices: 
       edges: []
@@ -177,7 +190,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 11b6210fffbeba94ba49cef890a9d518
     internalID: 0
     vertices: []
     indices: 
@@ -185,11 +198,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      UziSpreadSheet_0: -4273869421122619421
-      UziSpreadSheet_1: 3638726519094019117
-      UziSpreadSheet_2: -8652038197999764607
+      ShotgunSpreadSheet_0: -4951286573667773295
+      ShotgunSpreadSheet_1: -1219196127862523350
+      ShotgunSpreadSheet_2: 1920587547680658863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
