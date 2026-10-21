@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1612978781282952891, guid: 099f327da776cf344a773a30b3570dba, type: 3}
       propertyPath: enemyPrefab
       value: 
-      objectReference: {fileID: 4431947509933603961, guid: a827e0f5657334e40a585214b4ebcb92, type: 3}
+      objectReference: {fileID: 4228063045592583951, guid: 4f7554d1d65c9cd4da7e187af64e8274, type: 3}
     - target: {fileID: 3142229030112796535, guid: 099f327da776cf344a773a30b3570dba, type: 3}
       propertyPath: m_Name
       value: SniperSpawnPad Variant
