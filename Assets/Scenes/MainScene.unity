@@ -388,6 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e75a4b7a445d384487cce1eeb4f3d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAim
+  sr: {fileID: 1968903207}
 --- !u!1 &54726563
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,12 +652,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426658300}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 339.45486, y: 206.08368, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 744080578}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &499516521
 GameObject:
@@ -1233,6 +1234,7 @@ RectTransform:
   - {fileID: 2056988469}
   - {fileID: 1204173498}
   - {fileID: 2113755863}
+  - {fileID: 426658302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2733,6 +2735,7 @@ GameObject:
   - component: {fileID: 1968903208}
   - component: {fileID: 1968903209}
   - component: {fileID: 1968903210}
+  - component: {fileID: 1968903211}
   m_Layer: 0
   m_Name: Metrodome
   m_TagString: Untagged
@@ -2750,7 +2753,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9520978}
@@ -2802,11 +2805,11 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: f2c7e29e4d86a3c4cb56217484511269, type: 3}
+  m_Sprite: {fileID: -1219196127862523350, guid: b6c1ad66b41c6ca4199808b897bbbc6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -2945,6 +2948,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ba0c4510f6a294ba8a52b08def0115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundEffectPlayer
+--- !u!95 &1968903211
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968903205}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d4c8bf41dc291c42ae04e635c7a25cc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2005460177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3485,7 +3510,6 @@ SceneRoots:
   - {fileID: 1490945520}
   - {fileID: 270833610}
   - {fileID: 1935402313}
-  - {fileID: 426658302}
   - {fileID: 233858097}
   - {fileID: 1276325751}
   - {fileID: 1378530513994681820}
