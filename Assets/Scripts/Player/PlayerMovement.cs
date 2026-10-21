@@ -43,8 +43,13 @@ public class PlayerMovement : MonoBehaviour
     private void Dash()
     {
         if(canDash){
-            StartCoroutine("dashSequence");
+            StartCoroutine(dashSequence());
         }
+    }
+
+    void OnDestroy() {
+        inputManager.OnDashButtonPressed-=Dash;
+        print("test");
     }
 
     void FixedUpdate()

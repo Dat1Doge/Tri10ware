@@ -5,5 +5,6 @@ public class MenuHandler : MonoBehaviour
 {
     public void SwitchScene(string name) {
         SceneManager.LoadScene(name);
+        Time.timeScale = 1;
     }
 }

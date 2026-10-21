@@ -34,9 +34,11 @@ public class TempoHandler : MonoBehaviour
 
     public void SetBPM(int bpm)
     {
-        currBPM = Mathf.Clamp(bpm,minBPM,maxBPM);
-        Time.timeScale = GetBPMmulti();
-        OnTempoChange?.Invoke();
+        if(Time.timeScale!=0){
+            currBPM = Mathf.Clamp(bpm,minBPM,maxBPM);
+            Time.timeScale = GetBPMmulti();
+            OnTempoChange?.Invoke();
+        }
     }
 
     void Awake()
