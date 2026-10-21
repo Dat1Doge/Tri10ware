@@ -15,22 +15,45 @@ public class SniperEnemy : Enemy, IAttack
     private Rigidbody2D playerRb;
     private bool isLockingOn;
     private bool canAttack;
+    private Animator animator;
 
     private void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         Attack();
-        
     }
 
     private IEnumerator LockOnPlayer()
     {
         isLockingOn = true;
+        animator.SetBool("isAttacking",isLockingOn);
+        if (GetPlayerDirection() != Vector3.zero)
+        {
+            animator.SetBool("isAttacking", true);
+            if(GetPlayerDirection().x > 1)
+            {
+                animator.SetFloat("PlayerDirectionX", 1);
+            }
+            else if (GetPlayerDirection().x < -1)
+            {
+                animator.SetFloat("PlayerDirectionX", -1);
+            }
+            else if (GetPlayerDirection().y > 1)
+            {
+                animator.SetFloat("PlayerDirectionY", 1);
+            }
+            else if (GetPlayerDirection().y < -1)
+            {
+                animator.SetFloat("PlayerDirectionY", -1);
+            }
+        }
+        
         yield return new WaitForSeconds(lockInTime);
         GameObject newProjectile = Instantiate(projectile,transform.position,transform.rotation);
         newProjectile.GetComponent<Projectile>().Fire(GetPlayerDirection(), enemyTag);
         isLockingOn = false;
- 
+        animator.SetBool("isAttacking", isLockingOn);
         StartCoroutine(HandleAttackCooldown());
     }
 
