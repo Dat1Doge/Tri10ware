@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_Name
-      value: TestCharger Variant
+      value: Charger Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836889478326613417, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: maxHealth
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2699255814166683639, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}

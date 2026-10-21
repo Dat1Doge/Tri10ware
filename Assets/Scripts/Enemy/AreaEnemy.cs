@@ -23,6 +23,7 @@ public class AreaEnemy : Enemy, IAttack
     private bool canAttack;
     private bool canRoam;
 
+    public Action OnAttack;
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -57,6 +58,7 @@ public class AreaEnemy : Enemy, IAttack
             newProjectile.GetComponent<Projectile>().Fire(shotDirection, enemyTag);
         }
         StartCoroutine(HandleAttackCooldown());
+        OnAttack?.Invoke();
 
         yield return new WaitForSeconds(roamDelay);
         canRoam = true;

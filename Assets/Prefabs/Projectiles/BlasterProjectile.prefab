@@ -181,8 +181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnergyBall
   projectileSpeed: 5
-  projectileDamage: 50
-  projectileLifespan: 5
+  projectileDamage: 250
+  projectileLifespan: 3
   explosionRadius: 2
   explosionVFX: {fileID: 1116369619157908704, guid: f0eab4e8f442e2b428ba47665024090e, type: 3}
   explosionVFXDuration: 0.5

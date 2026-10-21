@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 916ef39bb2297564eb25502ec0dd1b9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7001435875134849867
+    second: ExplodingEnergyBallSpreadSheet_0
+  - first:
+      213: -6706398230101401192
+    second: ExplodingEnergyBallSpreadSheet_1
+  - first:
+      213: 3927336903429695823
+    second: ExplodingEnergyBallSpreadSheet_2
+  - first:
+      213: 7324922369186161654
+    second: ExplodingEnergyBallSpreadSheet_3
+  - first:
+      213: 6862168479925195612
+    second: ExplodingEnergyBallSpreadSheet_4
+  - first:
+      213: 648555137955372887
+    second: ExplodingEnergyBallSpreadSheet_5
+  - first:
+      213: 8063677939721423265
+    second: ExplodingEnergyBallSpreadSheet_6
+  - first:
+      213: 1571339684101981735
+    second: ExplodingEnergyBallSpreadSheet_7
+  - first:
+      213: 8473291612381663360
+    second: ExplodingEnergyBallSpreadSheet_8
+  - first:
+      213: -5939239314860084469
+    second: ExplodingEnergyBallSpreadSheet_9
+  - first:
+      213: 2615752047988232835
+    second: ExplodingEnergyBallSpreadSheet_10
+  - first:
+      213: -2683654266190867661
+    second: ExplodingEnergyBallSpreadSheet_11
+  - first:
+      213: -1738929170097893530
+    second: ExplodingEnergyBallSpreadSheet_12
+  - first:
+      213: -7664960615886783339
+    second: ExplodingEnergyBallSpreadSheet_13
+  - first:
+      213: 4310781341786341899
+    second: ExplodingEnergyBallSpreadSheet_14
+  - first:
+      213: -936358776730098327
+    second: ExplodingEnergyBallSpreadSheet_15
+  - first:
+      213: -6791720144302646331
+    second: ExplodingEnergyBallSpreadSheet_16
+  - first:
+      213: 8898705259643605079
+    second: ExplodingEnergyBallSpreadSheet_17
+  - first:
+      213: 5075125633557151515
+    second: ExplodingEnergyBallSpreadSheet_18
+  - first:
+      213: 2252211886131715374
+    second: ExplodingEnergyBallSpreadSheet_19
+  - first:
+      213: 8126750557675306603
+    second: ExplodingEnergyBallSpreadSheet_20
+  - first:
+      213: 7947796065024616017
+    second: ExplodingEnergyBallSpreadSheet_21
+  - first:
+      213: 4666605216289710207
+    second: ExplodingEnergyBallSpreadSheet_22
+  - first:
+      213: -1533594722707586232
+    second: ExplodingEnergyBallSpreadSheet_23
+  - first:
+      213: -8347848761013907925
+    second: ExplodingEnergyBallSpreadSheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 49
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43c61f45d81a2160800000000000000
+      internalID: 7001435875134849867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8916f7c77561ee2a0800000000000000
+      internalID: -6706398230101401192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 46
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49a5321b14b08630800000000000000
+      internalID: 3927336903429695823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 47
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f367aee51a57a560800000000000000
+      internalID: 7324922369186161654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 19
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53d2da00e15b3f50800000000000000
+      internalID: 6862168479925195612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1
+        width: 105
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f95173671200900800000000000000
+      internalID: 648555137955372887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 9
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9cf3cec50f7ef60800000000000000
+      internalID: 8063677939721423265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7268f5c0e158ec510800000000000000
+      internalID: 1571339684101981735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 11
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805e4af3dd279570800000000000000
+      internalID: 8473291612381663360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 45
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03fab18f45939da0800000000000000
+      internalID: -5939239314860084469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382d6d8f0a40d4420800000000000000
+      internalID: 2615752047988232835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 35
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3335bbbd9aeb1cad0800000000000000
+      internalID: -2683654266190867661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f00ce02251ed7e0800000000000000
+      internalID: -1738929170097893530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c75b83ee690a590800000000000000
+      internalID: -7664960615886783339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_14
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 24
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b028e857ac8f2db30800000000000000
+      internalID: 4310781341786341899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965eea257a26103f0800000000000000
+      internalID: -936358776730098327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_16
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbd9f84386feb1a0800000000000000
+      internalID: -6791720144302646331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75015f9494d8e7b70800000000000000
+      internalID: 8898705259643605079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 8
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f37a2efd77e6640800000000000000
+      internalID: 5075125633557151515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d1bc717c6714f10800000000000000
+      internalID: 2252211886131715374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_20
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 11
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb178239408c070800000000000000
+      internalID: 8126750557675306603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 13
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1562a03796e3c4e60800000000000000
+      internalID: 7947796065024616017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70eeef28bc13c040800000000000000
+      internalID: 4666605216289710207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_23
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843c99b99b397bae0800000000000000
+      internalID: -1533594722707586232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingEnergyBallSpreadSheet_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ec419d7cb762c80800000000000000
+      internalID: -8347848761013907925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExplodingEnergyBallSpreadSheet_0: 7001435875134849867
+      ExplodingEnergyBallSpreadSheet_1: -6706398230101401192
+      ExplodingEnergyBallSpreadSheet_10: 2615752047988232835
+      ExplodingEnergyBallSpreadSheet_11: -2683654266190867661
+      ExplodingEnergyBallSpreadSheet_12: -1738929170097893530
+      ExplodingEnergyBallSpreadSheet_13: -7664960615886783339
+      ExplodingEnergyBallSpreadSheet_14: 4310781341786341899
+      ExplodingEnergyBallSpreadSheet_15: -936358776730098327
+      ExplodingEnergyBallSpreadSheet_16: -6791720144302646331
+      ExplodingEnergyBallSpreadSheet_17: 8898705259643605079
+      ExplodingEnergyBallSpreadSheet_18: 5075125633557151515
+      ExplodingEnergyBallSpreadSheet_19: 2252211886131715374
+      ExplodingEnergyBallSpreadSheet_2: 3927336903429695823
+      ExplodingEnergyBallSpreadSheet_20: 8126750557675306603
+      ExplodingEnergyBallSpreadSheet_21: 7947796065024616017
+      ExplodingEnergyBallSpreadSheet_22: 4666605216289710207
+      ExplodingEnergyBallSpreadSheet_23: -1533594722707586232
+      ExplodingEnergyBallSpreadSheet_24: -8347848761013907925
+      ExplodingEnergyBallSpreadSheet_3: 7324922369186161654
+      ExplodingEnergyBallSpreadSheet_4: 6862168479925195612
+      ExplodingEnergyBallSpreadSheet_5: 648555137955372887
+      ExplodingEnergyBallSpreadSheet_6: 8063677939721423265
+      ExplodingEnergyBallSpreadSheet_7: 1571339684101981735
+      ExplodingEnergyBallSpreadSheet_8: 8473291612381663360
+      ExplodingEnergyBallSpreadSheet_9: -5939239314860084469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

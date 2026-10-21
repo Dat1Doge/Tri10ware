@@ -146,6 +146,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+<<<<<<< Updated upstream
+=======
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -188,6 +199,10 @@ PrefabInstance:
     - target: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_Name
       value: TestSniper Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836889478326613417, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: maxHealth
+      value: 250
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2699255814166683639, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
