@@ -119,7 +119,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4931886577842210599}
@@ -132,7 +132,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327362931873781439}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -956,7 +956,7 @@ PrefabInstance:
       addedObject: {fileID: 2889130422112095834}
     - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 111740452672025285}
+      addedObject: {fileID: 6506045918550427678}
   m_SourcePrefab: {fileID: 100100000, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
 --- !u!1 &2615867915800371291 stripped
 GameObject:
@@ -1025,7 +1025,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.15
+  m_Radius: 0.3
 --- !u!95 &2889130422112095834
 Animator:
   serializedVersion: 7
@@ -1048,7 +1048,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!212 &111740452672025285
+--- !u!212 &6506045918550427678
 SpriteRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0

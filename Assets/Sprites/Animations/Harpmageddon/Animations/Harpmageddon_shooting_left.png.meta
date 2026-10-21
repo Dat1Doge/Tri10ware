@@ -141,12 +141,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 128
-        width: 43
+        width: 48
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 64
-        width: 43
-        height: 65
+        x: 48
+        y: 128
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_2
       rect:
         serializedVersion: 2
-        x: 50
+        x: 96
         y: 128
-        width: 43
+        width: 48
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 64
-        width: 43
-        height: 65
+        x: 144
+        y: 128
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_4
       rect:
         serializedVersion: 2
-        x: 98
+        x: 192
         y: 128
-        width: 43
+        width: 48
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_5
       rect:
         serializedVersion: 2
-        x: 98
+        x: 0
         y: 64
-        width: 43
-        height: 65
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_6
       rect:
         serializedVersion: 2
-        x: 146
-        y: 128
-        width: 43
+        x: 48
+        y: 64
+        width: 48
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,12 +295,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_7
       rect:
         serializedVersion: 2
-        x: 146
+        x: 96
         y: 64
-        width: 43
-        height: 65
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,12 +317,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_8
       rect:
         serializedVersion: 2
-        x: 194
-        y: 128
-        width: 43
+        x: 144
+        y: 64
+        width: 48
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_9
       rect:
         serializedVersion: 2
-        x: 194
-        y: 63
-        width: 43
-        height: 65
+        x: 192
+        y: 64
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_10
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 43
-        height: 65
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_11
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 43
-        height: 65
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: Harpmageddon_shooting_left_12
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 43
-        height: 65
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,7 +427,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 81a0f6bb56d0a1b4a9c28f2d5cde82ba
     internalID: 0
     vertices: []
     indices: 
@@ -435,7 +435,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Harpmageddon_shooting_left_0: 7736325868527462542
       Harpmageddon_shooting_left_1: -8268724513776926720
