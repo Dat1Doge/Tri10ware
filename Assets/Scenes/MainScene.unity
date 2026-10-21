@@ -1820,7 +1820,7 @@ GameObject:
   - component: {fileID: 288209106}
   - component: {fileID: 288209108}
   - component: {fileID: 288209107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpawnTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5781,6 +5781,14 @@ PrefabInstance:
     - target: {fileID: 8248881436153588311, guid: 57e4b4fc026082d43be7353f5a832502, type: 3}
       propertyPath: m_Name
       value: ChargerSpawnPad Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248881436153588311, guid: 57e4b4fc026082d43be7353f5a832502, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525029639106553254, guid: 57e4b4fc026082d43be7353f5a832502, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28950,7 +28958,7 @@ GameObject:
   - component: {fileID: 1481049325}
   - component: {fileID: 1481049326}
   - component: {fileID: 1481049327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpawnTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29210,6 +29218,14 @@ PrefabInstance:
     - target: {fileID: 8794740824090691029, guid: 7a6a31e6f50affc4eb1f30f8dc1e5bc0, type: 3}
       propertyPath: m_Name
       value: AreaSpawnPad Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794740824090691029, guid: 7a6a31e6f50affc4eb1f30f8dc1e5bc0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095624809847294500, guid: 7a6a31e6f50affc4eb1f30f8dc1e5bc0, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30065,9 +30081,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 288209106}
     m_Modifications:
+    - target: {fileID: 714250618026458546, guid: b61034a3ff6f2974398bb3e71d692b45, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 999398461766971971, guid: b61034a3ff6f2974398bb3e71d692b45, type: 3}
       propertyPath: m_Name
       value: SniperSpawnPad Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 999398461766971971, guid: b61034a3ff6f2974398bb3e71d692b45, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3469901034663889807, guid: b61034a3ff6f2974398bb3e71d692b45, type: 3}
       propertyPath: door
