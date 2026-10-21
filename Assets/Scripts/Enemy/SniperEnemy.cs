@@ -7,8 +7,13 @@ public class SniperEnemy : Enemy, IAttack
     [Header("Sniper Attack Settings")]
     [SerializeField] private float lockInTime;
     [SerializeField] private GameObject projectile;
+
     [Header("General Settings")]
     [SerializeField] private float attackCooldown;
+
+    [Header("Audio")]
+    private SoundEffectPlayer sfxPlayer;
+    [SerializeField] private SoundEffect shoot;
 
     private Vector3 playerDirection;
     private Vector3 adjustedPlayerDirection;
@@ -22,6 +27,7 @@ public class SniperEnemy : Enemy, IAttack
         playerRb = player.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         Attack();
+        sfxPlayer = GetComponent<SoundEffectPlayer>();
     }
 
     private IEnumerator LockOnPlayer()
@@ -50,6 +56,7 @@ public class SniperEnemy : Enemy, IAttack
         }
         
         yield return new WaitForSeconds(lockInTime);
+        sfxPlayer.PlaySound(shoot);
         GameObject newProjectile = Instantiate(projectile,transform.position,transform.rotation);
         newProjectile.GetComponent<Projectile>().Fire(GetPlayerDirection(), enemyTag);
         isLockingOn = false;

@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class AreaEnemy : Enemy, IAttack
 {
+    [Header("Audio")]
+    private SoundEffectPlayer sfxPlayer;
+    [SerializeField] private SoundEffect shoot;
+    
     [Header("Attack Settings")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private GameObject projectile;
@@ -24,6 +28,7 @@ public class AreaEnemy : Enemy, IAttack
 
     private void Start()
     {
+        sfxPlayer = GetComponent<SoundEffectPlayer>();
         rigidBody = GetComponent<Rigidbody2D>();
         Attack();
     }
@@ -48,6 +53,7 @@ public class AreaEnemy : Enemy, IAttack
     }
     private IEnumerator RadialAttack()
     {
+        sfxPlayer.PlaySound(shoot);
         foreach (Transform t in shotPoints)
         {
             Vector3 shotDirection = t.position - transform.position;
