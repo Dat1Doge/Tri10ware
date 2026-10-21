@@ -18,25 +18,33 @@ public class ChargerEnemy : Enemy, IAttack
     [Header("General Settings")]
     [SerializeField] private float attackCooldown;
 
+    private Animator animator;
     private Vector3 playerDirection;
     private bool isDashing;
     private bool canAttack;
     private bool dashHitAlready;
+    private float smashAndRestDelay = 1.0f;
 
     private Rigidbody2D rb;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        animator = GetComponent<Animator>();
         Attack();
     } 
     private IEnumerator DashAttack()
     {
         isDashing = true;
+        
+
         dashHitAlready = false;
+
         rb.AddForce(playerDirection * dashForce);
+        animator.SetTrigger("HeadSmash");
         yield return new WaitForSeconds(dashDuration);
+        animator.SetTrigger("Rest");
+
         rb.linearVelocity = Vector2.zero;
         isDashing = false;
     }
