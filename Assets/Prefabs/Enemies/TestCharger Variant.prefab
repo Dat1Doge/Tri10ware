@@ -1,5 +1,97 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8370250304208763001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7594854157708596558}
+  - component: {fileID: 4390184836453540242}
+  m_Layer: 7
+  m_Name: ChargerEnemyVisual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7594854157708596558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8370250304208763001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8621495613734728187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4390184836453540242
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8370250304208763001}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 3778246074468085070, guid: eb8bd18dd397ba44fa4d15aede206049, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.52}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1001 &8483385219831080740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8,6 +100,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.25
@@ -48,6 +148,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Size.x
+      value: 0.49097013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Size.y
+      value: 0.98605394
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0034868717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.006973028
+      objectReference: {fileID: 0}
     - target: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_Name
       value: TestCharger Variant
@@ -55,7 +171,10 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2699255814166683639, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7594854157708596558}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       insertIndex: -1
@@ -78,8 +197,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45604e12ded5697439f0469c205ec75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChargerEnemy
-  dashForce: 30
-  dashDuration: 2
-  timeBetweenDashes: 3
+  dashForce: 700
+  dashDuration: 1
+  timeBetweenDashes: 2
   dashCount: 3
-  attackCooldown: 0
+  dashAttackDamage: 50
+  circleRadius: 2
+  contactFilter:
+    useTriggers: 0
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 64
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  attackCooldown: 4
+--- !u!4 &8621495613734728187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+  m_PrefabInstance: {fileID: 8483385219831080740}
+  m_PrefabAsset: {fileID: 0}

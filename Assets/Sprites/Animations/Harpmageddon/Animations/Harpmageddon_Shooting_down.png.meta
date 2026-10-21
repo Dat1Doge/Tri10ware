@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 4d742dd656d20b94c9b7a4e83c196bd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6273433278732684077
+    second: Harpmageddon_Shooting_down_0
+  - first:
+      213: 4666652798856886175
+    second: Harpmageddon_Shooting_down_1
+  - first:
+      213: -7372531918791337700
+    second: Harpmageddon_Shooting_down_2
+  - first:
+      213: -8537327141538133157
+    second: Harpmageddon_Shooting_down_3
+  - first:
+      213: 5033598207295724082
+    second: Harpmageddon_Shooting_down_4
+  - first:
+      213: 3018487043556685503
+    second: Harpmageddon_Shooting_down_5
+  - first:
+      213: 8700809320609189453
+    second: Harpmageddon_Shooting_down_6
+  - first:
+      213: 4825081150686710751
+    second: Harpmageddon_Shooting_down_7
+  - first:
+      213: 4753915246195035676
+    second: Harpmageddon_Shooting_down_8
+  - first:
+      213: -8695714196353633835
+    second: Harpmageddon_Shooting_down_9
+  - first:
+      213: -4397539059528240445
+    second: Harpmageddon_Shooting_down_10
+  - first:
+      213: 2059986954796433100
+    second: Harpmageddon_Shooting_down_11
+  - first:
+      213: -5018086368999040447
+    second: Harpmageddon_Shooting_down_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4360bcba940f8a0800000000000000
+      internalID: -6273433278732684077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9772fddef743c040800000000000000
+      internalID: 4666652798856886175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 131
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19963df7418fa990800000000000000
+      internalID: -7372531918791337700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 131
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b815d8232558980800000000000000
+      internalID: -8537327141538133157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 131
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a97ef76eeead540800000000000000
+      internalID: 5033598207295724082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6b05639f1d3e920800000000000000
+      internalID: 3018487043556685503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e815d6afb7fb870800000000000000
+      internalID: 8700809320609189453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 67
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb4d1ffdb126f240800000000000000
+      internalID: 4825081150686710751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 67
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ec4c5aabc49f140800000000000000
+      internalID: 4753915246195035676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 67
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d13502a20e925780800000000000000
+      internalID: -8695714196353633835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2f9e6468dc8f2c0800000000000000
+      internalID: -4397539059528240445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce749a983b869c10800000000000000
+      internalID: 2059986954796433100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpmageddon_Shooting_down_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a159bc80d2c5ab0800000000000000
+      internalID: -5018086368999040447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harpmageddon_Shooting_down_0: -6273433278732684077
+      Harpmageddon_Shooting_down_1: 4666652798856886175
+      Harpmageddon_Shooting_down_10: -4397539059528240445
+      Harpmageddon_Shooting_down_11: 2059986954796433100
+      Harpmageddon_Shooting_down_12: -5018086368999040447
+      Harpmageddon_Shooting_down_2: -7372531918791337700
+      Harpmageddon_Shooting_down_3: -8537327141538133157
+      Harpmageddon_Shooting_down_4: 5033598207295724082
+      Harpmageddon_Shooting_down_5: 3018487043556685503
+      Harpmageddon_Shooting_down_6: 8700809320609189453
+      Harpmageddon_Shooting_down_7: 4825081150686710751
+      Harpmageddon_Shooting_down_8: 4753915246195035676
+      Harpmageddon_Shooting_down_9: -8695714196353633835
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
