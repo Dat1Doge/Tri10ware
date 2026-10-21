@@ -38,7 +38,6 @@ public class ChargerEnemy : Enemy, IAttack
         isDashing = true;
        
         Vector3 storedPlayerDirection = playerDirection;
-        Debug.Log(storedPlayerDirection);
         if (storedPlayerDirection.x > directionInterval)
         {
             animator.SetFloat("PlayerDirectionX", 1);

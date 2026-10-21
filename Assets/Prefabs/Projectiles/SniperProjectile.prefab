@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   projectileSpeed: 50
-  projectileDamage: 100
+  projectileDamage: 50
   projectileLifespan: 2
 --- !u!96 &5575838852036328015
 TrailRenderer:
