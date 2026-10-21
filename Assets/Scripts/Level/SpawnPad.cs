@@ -4,6 +4,7 @@ public class SpawnPad : MonoBehaviour
 {
     [SerializeField] private GameObject enemyPrefab;
     [SerializeField] private GameObject editorVisual;
+    [SerializeField] private Door door;
 
     private void Start()
     {
@@ -12,6 +13,9 @@ public class SpawnPad : MonoBehaviour
 
     public void Spawn()
     {
-        Instantiate(enemyPrefab, transform.position, transform.rotation);
+        GameObject newEnemy = Instantiate(enemyPrefab, transform.position, transform.rotation);
+        if(door) {
+            door.AddEnemy(newEnemy);
+        }
     }
 }
