@@ -266,9 +266,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndingCharacters
   textBox: {fileID: 593827704}
-  timeBetweenCharacters: 30
+  timeBetweenCharacters: 30.5
   endDialogue: 
   scrollSpeed: 125
+  animator: {fileID: 1040244748}
+  endscreen: {fileID: 1040244746}
 --- !u!1 &210630467
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "And thus, the infection they called the Crimson Dissonance faded into nothingness.\n\r\nPeace was brought to Symphonia once more.\n\n\n\nBut, things were different now.\r\nSymphonia's pulse had been rewritten. Its once-classical composition didn\u2019t sound quite the same.\r\nFor the first time in its history, the city had discovered a new rhythm.\n\n\n\nAnd, to everyone's surprise...\r\nThe instruments rather liked it.\r\n\n\r\nThe violins found a new groove. The pianos discovered a heavier sound. Even the harps began to swing.\r\nAnd the drums found their place among the orchestra.\r\n\n\r\nTogether, they reverberated a harmony unlike anything Symphonia had ever known.\r\nA new generation of music was born.\r\nThey called it...\n\n\r\nHip hop?"
+  m_text: "And thus, the infection they called the Crimson Dissonance faded into nothingness.\n\r\nPeace was brought to Symphonia once more.\n\nBut, things were different now.\r\nSymphonia's pulse had been rewritten. Its once-classical composition didn\u2019t sound quite the same.\r\nFor the first time in its history, the city had discovered a new rhythm.\n\n\nAnd, to everyone's surprise...\r\nThe instruments rather liked it.\r\n\r\nThe violins found a new groove. The pianos discovered a heavier sound. Even the harps began to swing.\r\nAnd the drums found their place among the orchestra.\r\n\r\nTogether, they reverberated a harmony unlike anything Symphonia had ever known.\r\nA new generation of music was born.\r\nThey called it...\n\r\nHip hop?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
   m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
@@ -549,7 +551,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65.3
+  m_fontSize: 70.45
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -888,7 +890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1040244747
 RectTransform:
   m_ObjectHideFlags: 0
@@ -898,7 +900,7 @@ RectTransform:
   m_GameObject: {fileID: 1040244746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.0875006, y: 3.5874999, z: 1}
+  m_LocalScale: {x: 7.0875006, y: 3.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 236838855}
@@ -943,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

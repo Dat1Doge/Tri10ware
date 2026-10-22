@@ -8,6 +8,8 @@ public class EndingCharacters : MonoBehaviour
     [SerializeField] private float timeBetweenCharacters;
     [SerializeField] private string endDialogue;
     [SerializeField] private float scrollSpeed;
+    [SerializeField] private Animator animator;
+    [SerializeField] private GameObject endscreen;
 
     private void Start()
     {
@@ -29,5 +31,8 @@ public class EndingCharacters : MonoBehaviour
 
             yield return new WaitForSeconds(1/timeBetweenCharacters);
         }
+        yield return new WaitForSeconds(2);
+        endscreen.SetActive(true);
+        animator.SetTrigger("endscreen");
     }
 }

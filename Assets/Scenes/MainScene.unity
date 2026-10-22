@@ -32496,6 +32496,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175360427}
     m_Modifications:
+    - target: {fileID: 9118453523969450776, guid: 76e72e1523135f342b853e348acd7300, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4943876142419646292, guid: 5c86a809c6d52c34a84f1926bce608bc, type: 3}
     - target: {fileID: 4040495193289716849, guid: c7d3871d991cd7f48ba37ea79684b1b7, type: 3}
       propertyPath: m_Name
       value: NEW_TopCornerWalls_0
@@ -32540,10 +32544,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9118453523969450776, guid: 76e72e1523135f342b853e348acd7300, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 4943876142419646292, guid: 5c86a809c6d52c34a84f1926bce608bc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
