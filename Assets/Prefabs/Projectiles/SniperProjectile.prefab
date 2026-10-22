@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6653098143227129273}
   - component: {fileID: 6200777417380131777}
   - component: {fileID: 5076771844914613386}
-  - component: {fileID: 3393102274196187387}
   - component: {fileID: 5575838852036328015}
   - component: {fileID: -3683328544811986441}
+  - component: {fileID: -2922842459479891692}
   m_Layer: 3
   m_Name: SniperProjectile
   m_TagString: Untagged
@@ -123,21 +123,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3393102274196187387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7924119346189006491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0edfcc515c3975e49b3d066e0df256d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  projectileSpeed: 50
-  projectileDamage: 50
-  projectileLifespan: 2
 --- !u!96 &5575838852036328015
 TrailRenderer:
   serializedVersion: 4
@@ -294,3 +279,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-2922842459479891692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7924119346189006491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd65f6e3216e13439f2a954dda7b29c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SniperShot
+  projectileSpeed: 50
+  projectileDamage: 50
+  projectileLifespan: 2

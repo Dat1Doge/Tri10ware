@@ -957,6 +957,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6506045918550427678}
+    - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4093206417514470680}
+    - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3160658894513902535}
   m_SourcePrefab: {fileID: 100100000, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
 --- !u!1 &2615867915800371291 stripped
 GameObject:
@@ -1108,6 +1114,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &4093206417514470680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2615867915800371291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b80ad35e9f0f43b418083fe64243ca2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hitbox
+  health: {fileID: 0}
+  layerMaskNumber: 0
+--- !u!114 &-3160658894513902535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2615867915800371291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1c12146e88f33438a1c4aa3f2bb88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitEffect
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashTime: 0.2
 --- !u!4 &4931886577842210599 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 152767778085639903, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}

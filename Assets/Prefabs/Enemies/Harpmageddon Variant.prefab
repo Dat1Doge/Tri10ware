@@ -102,6 +102,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7690308623941949317}
+    - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 717425422923111759}
   m_SourcePrefab: {fileID: 100100000, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
 --- !u!1 &4228063045592583951 stripped
 GameObject:
@@ -206,3 +209,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &717425422923111759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228063045592583951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1c12146e88f33438a1c4aa3f2bb88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitEffect
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashTime: 0.2
