@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.5, y: 0}
+  m_AnchoredPosition: {x: 4.5, y: 0}
   m_SizeDelta: {x: 975, y: 548.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57571789
@@ -520,7 +520,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.5, y: 0}
+  m_AnchoredPosition: {x: 4.5, y: 0}
   m_SizeDelta: {x: 975, y: 548.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304194399
@@ -647,13 +647,13 @@ MonoBehaviour:
   m_text: Then, the tentacles appeared.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1706,7 +1706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.5, y: 0}
+  m_AnchoredPosition: {x: 4.5, y: 0}
   m_SizeDelta: {x: 975, y: 548.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1221925652
@@ -1946,7 +1946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 4.7668386, y: -0.21056676}
+  m_AnchoredPosition: {x: 4.2668386, y: -0.21056676}
   m_SizeDelta: {x: 975, y: 1098.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1369509248
@@ -2278,7 +2278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.5, y: 0}
+  m_AnchoredPosition: {x: 4.5, y: 0}
   m_SizeDelta: {x: 975, y: 548.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488101688
@@ -2484,7 +2484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 4.7668386, y: -0.21056676}
+  m_AnchoredPosition: {x: 4.2668386, y: -0.21056676}
   m_SizeDelta: {x: 975, y: 1098.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647581740
@@ -2962,16 +2962,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Every instrument served its purpose, every sound belonging to a greater composition.\n\nThe city ran like clockwork\u2014or perhaps, a more fitting word is an like an orchestra. "
+  m_text: " Every instrument served its purpose, every sound belonging to a greater composition.\n\nThe city ran like clockwork\u2014or perhaps, a more fitting word is like an orchestra. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2989,7 +2989,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.35
+  m_fontSize: 54.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
