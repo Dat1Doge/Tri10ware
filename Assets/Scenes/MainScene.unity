@@ -29999,6 +29999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 300
+  damageText: {fileID: 5788716106909153719, guid: a1916f2a9b8a0994d8b0e9d40fbdf585, type: 3}
 --- !u!61 &1583505874
 BoxCollider2D:
   m_ObjectHideFlags: 0
