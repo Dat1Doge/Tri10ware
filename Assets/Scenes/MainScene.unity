@@ -1728,6 +1728,7 @@ MonoBehaviour:
   - {fileID: 5205833962145488870, guid: ad44fbd1ac5cdf44a98beeb81cfc1a8f, type: 3}
   generationOrigin: {x: 96, y: 0, z: 0}
   numRooms: 10
+  bossRoom: {fileID: 1357715089519117861, guid: a7cefef482cc75b48b80097422e61b51, type: 3}
 --- !u!4 &270833610
 Transform:
   m_ObjectHideFlags: 0
@@ -3168,7 +3169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Camera
   speed: 5
-  fovIncrease: 2
+  fovIncrease: 4
 --- !u!1001 &534482046
 PrefabInstance:
   m_ObjectHideFlags: 0

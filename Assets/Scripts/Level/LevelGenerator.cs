@@ -6,6 +6,7 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] private GameObject[] roomPrefabs;
     [SerializeField] private Vector3 generationOrigin;
     [SerializeField] private int numRooms;
+    [SerializeField] private GameObject bossRoom;
 
     private List<GameObject> rooms;
 
@@ -24,5 +25,7 @@ public class LevelGenerator : MonoBehaviour
             rooms.Add(newRoom);
             doorWayPosition = newRoom.GetComponent<Room>().exitPosition();
         }
+        Vector3 bossRoomPosition = doorWayPosition + (bossRoom.transform.position - bossRoom.GetComponent<Room>().entrancePosition());
+        GameObject newBossRoom = Instantiate(bossRoom,bossRoomPosition,Quaternion.Euler(0,0,0));
     }
 }
