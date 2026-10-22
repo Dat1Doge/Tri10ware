@@ -33,6 +33,7 @@ public class Health : MonoBehaviour
 
     public void DealDamage(float damage) {
         SetHealth(health-damage);
+        OnHealthChanged?.Invoke();
         if(health == 0){
             OnDeath?.Invoke();
             Debug.Log(gameObject.name + "killed!");

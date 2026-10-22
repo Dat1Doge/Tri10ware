@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using static Unity.U2D.Physics.PhysicsShape;
@@ -18,6 +19,7 @@ public class ChargerEnemy : Enemy, IAttack
     [Header("General Settings")]
     [SerializeField] private float attackCooldown;
 
+    
     private Animator animator;
     private Vector3 playerDirection;
     private float directionInterval = 0.2f;
@@ -26,7 +28,9 @@ public class ChargerEnemy : Enemy, IAttack
     private bool dashHitAlready;
 
     private Rigidbody2D rb;
+    public Action OnHeadSmash;
 
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,7 +42,6 @@ public class ChargerEnemy : Enemy, IAttack
         isDashing = true;
        
         Vector3 storedPlayerDirection = playerDirection;
-        Debug.Log(storedPlayerDirection);
         if (storedPlayerDirection.x > directionInterval)
         {
             animator.SetFloat("PlayerDirectionX", 1);
@@ -59,8 +62,10 @@ public class ChargerEnemy : Enemy, IAttack
         dashHitAlready = false;
 
         rb.AddForce(playerDirection * dashForce);
+
         animator.SetTrigger("HeadSmash");
         yield return new WaitForSeconds(dashDuration);
+        OnHeadSmash?.Invoke();
         animator.SetTrigger("Rest");
 
         rb.linearVelocity = Vector2.zero;
