@@ -56,13 +56,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Size.x
+      value: 0.62226486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6476159
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.039293766
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0392946
+      objectReference: {fileID: 0}
     - target: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: m_Name
       value: BeatingHeart Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7836889478326613417, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       propertyPath: maxHealth
-      value: 1500
+      value: 250
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2699255814166683639, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
@@ -99,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2aa36633aa29948b9ce47418291756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatingHeart
+  menuHandler: {fileID: 0}
 --- !u!212 &3575692880489737496
 SpriteRenderer:
   serializedVersion: 3
@@ -193,3 +210,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2aa36633aa29948b9ce47418291756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatingHeart
+  menuHandler: {fileID: 0}

@@ -4,8 +4,15 @@ using UnityEngine;
 public class BeatingHeart : Enemy
 {
     public Action OnBeatingHeartKilled;
+    [SerializeField] private MenuHandler menuHandler;
+
+    private void Start()
+    {
+        menuHandler = FindAnyObjectByType<MenuHandler>();
+    }
     private void OnDestroy()
     {
-        OnBeatingHeartKilled?.Invoke();
+        menuHandler.SwitchScene("EndCutscene");
+        Debug.Log("End");
     }
 }
