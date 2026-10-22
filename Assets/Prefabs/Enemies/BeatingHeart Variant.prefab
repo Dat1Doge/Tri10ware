@@ -97,6 +97,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1626703483459603156}
+    - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5111356044908793048}
+    - targetCorrespondingSourceObject: {fileID: 7071293292695630243, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7824421110811356429}
   m_SourcePrefab: {fileID: 100100000, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
 --- !u!1 &7598914638064337908 stripped
 GameObject:
@@ -115,6 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2aa36633aa29948b9ce47418291756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatingHeart
+  health: {fileID: 0}
   menuHandler: {fileID: 0}
 --- !u!212 &3575692880489737496
 SpriteRenderer:
@@ -210,4 +217,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2aa36633aa29948b9ce47418291756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatingHeart
+  health: {fileID: 0}
   menuHandler: {fileID: 0}
+--- !u!114 &5111356044908793048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7598914638064337908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b80ad35e9f0f43b418083fe64243ca2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hitbox
+  health: {fileID: 0}
+  layerMaskNumber: 0
+--- !u!114 &7824421110811356429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7598914638064337908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1c12146e88f33438a1c4aa3f2bb88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitEffect
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashTime: 0.2
