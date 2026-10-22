@@ -19,7 +19,8 @@ public class ChargerEnemy : Enemy, IAttack
     [Header("General Settings")]
     [SerializeField] private float attackCooldown;
 
-    
+    [SerializeField] private SoundEffect slamEffect;
+
     private Animator animator;
     private Vector3 playerDirection;
     private float directionInterval = 0.2f;
@@ -28,6 +29,7 @@ public class ChargerEnemy : Enemy, IAttack
     private bool dashHitAlready;
 
     private Rigidbody2D rb;
+    private SoundEffectPlayer sfxPlayer;
     public Action OnHeadSmash;
 
     
@@ -35,6 +37,7 @@ public class ChargerEnemy : Enemy, IAttack
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        sfxPlayer = GetComponent<SoundEffectPlayer>();
         Attack();
     } 
     private IEnumerator DashAttack()
@@ -62,10 +65,12 @@ public class ChargerEnemy : Enemy, IAttack
         dashHitAlready = false;
 
         rb.AddForce(playerDirection * dashForce);
+        
 
         animator.SetTrigger("HeadSmash");
         yield return new WaitForSeconds(dashDuration);
         OnHeadSmash?.Invoke();
+        sfxPlayer.PlaySound(slamEffect);
         animator.SetTrigger("Rest");
 
         rb.linearVelocity = Vector2.zero;

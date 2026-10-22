@@ -281,6 +281,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   attackCooldown: 4
+  slamEffect: {fileID: 11400000, guid: f7c6501b48880e548b266836523b476d, type: 2}
 --- !u!95 &6242626993320871895
 Animator:
   serializedVersion: 7
