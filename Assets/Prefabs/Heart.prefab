@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0dee1349382204409e039270160cd3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Heart
-  healAmount: 25
+  healAmount: 200
 --- !u!61 &460583607411936456
 BoxCollider2D:
   m_ObjectHideFlags: 0
