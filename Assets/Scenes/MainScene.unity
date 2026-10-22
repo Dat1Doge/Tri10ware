@@ -1724,8 +1724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
   roomPrefabs:
-  - {fileID: 1357715089519117861, guid: a7cefef482cc75b48b80097422e61b51, type: 3}
-  - {fileID: 5205833962145488870, guid: ad44fbd1ac5cdf44a98beeb81cfc1a8f, type: 3}
+  - {fileID: 891868996523687308, guid: ca565d08a22d77f49b1094c8a78a6f22, type: 3}
   generationOrigin: {x: 96, y: 0, z: 0}
   numRooms: 10
   bossRoom: {fileID: 1357715089519117861, guid: a7cefef482cc75b48b80097422e61b51, type: 3}
