@@ -912,6 +912,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 7836889478326613417, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
+      propertyPath: damageText
+      value: 
+      objectReference: {fileID: 5788716106909153719, guid: a1916f2a9b8a0994d8b0e9d40fbdf585, type: 3}
     m_RemovedComponents:
     - {fileID: 2699255814166683639, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
     - {fileID: 2175725705200503671, guid: 6d346627623be0c4d84a6ca927410bed, type: 3}
