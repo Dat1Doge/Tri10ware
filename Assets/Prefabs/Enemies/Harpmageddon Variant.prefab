@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SniperEnemy
   lockInTime: 5
-  projectile: {fileID: 7924119346189006491, guid: 4d21eed8084e7464194f9027043fc154, type: 3}
-  attackCooldown: 20
+  projectile: {fileID: 7924119346189006491, guid: f493db78ff32f42469945b28631e297f, type: 3}
+  attackCooldown: 7
   shoot: {fileID: 11400000, guid: 0e9c551d307789c46a5ddea5fe7b67f0, type: 2}
 --- !u!95 &8740888190945847564
 Animator:

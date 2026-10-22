@@ -31,7 +31,7 @@ public class EndingCharacters : MonoBehaviour
 
             yield return new WaitForSeconds(1/timeBetweenCharacters);
         }
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         endscreen.SetActive(true);
         animator.SetTrigger("endscreen");
     }
