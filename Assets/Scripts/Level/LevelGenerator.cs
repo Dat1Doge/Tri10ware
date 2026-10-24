@@ -12,17 +12,21 @@ public class LevelGenerator : MonoBehaviour
 
     private void Start() {
         rooms = new List<GameObject>();
+        for(int i = 0; i<roomPrefabs.Length;i++) {
+            rooms.Add(roomPrefabs[i]);
+        }
         generateLevel();
     }
 
     private void generateLevel() {
         Vector3 doorWayPosition = generationOrigin;
         for(int i = 0;i<numRooms;i++) {
-            GameObject chosenRoom = roomPrefabs[Random.Range(0,roomPrefabs.Length)];
+            int index = Random.Range(0,rooms.Count);
+            GameObject chosenRoom = rooms[index];
             Vector3 position = doorWayPosition + (chosenRoom.transform.position - chosenRoom.GetComponent<Room>().entrancePosition());
             GameObject newRoom = Instantiate(chosenRoom,position,Quaternion.Euler(0,0,0));
-
-            rooms.Add(newRoom);
+            rooms.RemoveAt(index);
+            
             doorWayPosition = newRoom.GetComponent<Room>().exitPosition();
         }
         Vector3 bossRoomPosition = doorWayPosition + (bossRoom.transform.position - bossRoom.GetComponent<Room>().entrancePosition());
