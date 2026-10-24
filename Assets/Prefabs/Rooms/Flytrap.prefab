@@ -18312,7 +18312,6 @@ MonoBehaviour:
   spawnPads:
   - {fileID: 3289970984965816561}
   - {fileID: 2392114611777602282}
-  - {fileID: 0}
   - {fileID: 5122776665521517375}
 --- !u!1 &5634742678407891975
 GameObject:
