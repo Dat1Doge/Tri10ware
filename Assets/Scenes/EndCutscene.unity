@@ -526,8 +526,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "And thus, the infection they called the Crimson Dissonance faded into nothingness.\n\r\nPeace was brought to Symphonia once more.\n\nBut, things were different now.\r\nSymphonia's pulse had been rewritten. Its once-classical composition didn\u2019t sound quite the same.\r\nFor the first time in its history, the city had discovered a new rhythm.\n\n\nAnd, to everyone's surprise...\r\nThe instruments rather liked it.\r\n\r\nThe violins found a new groove. The pianos discovered a heavier sound. Even the harps began to swing.\r\nAnd the drums found their place among the orchestra.\r\n\r\nTogether, they reverberated a harmony unlike anything Symphonia had ever known.\r\nA new generation of music was born.\r\nThey called it...\n\r\nHip hop?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70.45
+  m_fontSize: 51.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

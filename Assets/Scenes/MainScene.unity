@@ -1189,8 +1189,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SPACE or RMB to dash
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1756,14 +1756,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Changing the tempo changes your bullet style
 
-    
+
 
     Slow BPM = Area Damage Energy Bomb
 
     Fast BPM = Piercing Sniper Shot'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1787,7 +1787,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.5
+  m_fontSize: 42.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -31101,8 +31101,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Use scroll wheel to speed up/slow down time
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31126,7 +31126,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 106.95
+  m_fontSize: 78.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -32457,8 +32457,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Use high bpm bullets for farther enemies, slow bpm bullets for clumped enemies
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32482,7 +32482,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 86.75
+  m_fontSize: 64.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -33180,10 +33180,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175360427}
     m_Modifications:
-    - target: {fileID: 9118453523969450776, guid: 76e72e1523135f342b853e348acd7300, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 4943876142419646292, guid: 5c86a809c6d52c34a84f1926bce608bc, type: 3}
     - target: {fileID: 4040495193289716849, guid: c7d3871d991cd7f48ba37ea79684b1b7, type: 3}
       propertyPath: m_Name
       value: NEW_TopCornerWalls_0
@@ -33228,6 +33224,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9118453523969450776, guid: 76e72e1523135f342b853e348acd7300, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4943876142419646292, guid: 5c86a809c6d52c34a84f1926bce608bc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

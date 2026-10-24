@@ -33,7 +33,7 @@ public class Health : MonoBehaviour
     }
 
     public void DealDamage(float damage) {
-        Instantiate(damageText,transform.position,transform.rotation).GetComponent<DamageText>().ChangeText(damage);
+        Instantiate(damageText,transform.position,Quaternion.Euler(0,0,0)).GetComponent<DamageText>().ChangeText(damage);
         SetHealth(health-damage);
         OnHealthChanged?.Invoke();
         if(health == 0){

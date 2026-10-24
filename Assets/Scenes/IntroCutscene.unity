@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Then, the tentacles appeared.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -783,8 +783,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Symphonia was a city unlike any other. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 128
+  m_fontSize: 97.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1053,8 +1053,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
-  m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
+  m_sharedMaterial: {fileID: -1265178422030165931, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 67.05
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1832,7 +1832,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "One day, a sound was heard resonating underneath Symphonia.\r\nA beat.\r\n\n\nIt was a sound unlike any other. It cut through the trancelike melodies of Symphonia. \r\nIt was welcome.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2164,7 +2164,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: At the city's center stood a great mechanism known as the Metrodome, maintaining the pulse that connected every living instrument.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2610,7 +2610,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: That was how the Crimson Dissonance overtook Symphonia.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2964,7 +2964,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: " Every instrument served its purpose, every sound belonging to a greater composition.\n\nThe city ran like clockwork\u2014or perhaps, a more fitting word is like an orchestra. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a555491d953f5948aed724a2acec53f, type: 2}
   m_sharedMaterial: {fileID: 7158445301070114929, guid: d4c9669229bb20646a4504cb665e54f4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
